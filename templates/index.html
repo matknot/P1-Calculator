@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Extrusion Calc</title>
     <style>
-        body { font-family: Arial; max-width: 100%; margin: auto; padding: 20px; background: black; color: white; }
-        label { display: block; margin: 10px 0 5px; color: #ccc; }
-        input, select { width: 100%; padding: 8px; box-sizing: border-box; background: #333; color: white; border: 1px solid #555; }
-        button { margin: 10px 5px 0 0; padding: 8px 16px; background: #4CAF50; color: white; border: none; cursor: pointer; }
+        body { font-family: Arial; max-width: 100%; margin: auto; padding: 30px; background: black; color: white; font-size: 18px; }
+        label { display: block; margin: 15px 0 7px; color: #ccc; font-size: 20px; }
+        input, select { width: 100%; padding: 12px; box-sizing: border-box; background: #333; color: white; border: 1px solid #555; font-size: 18px; }
+        button { margin: 15px 7px 0 0; padding: 12px 24px; background: #4CAF50; color: white; border: none; cursor: pointer; font-size: 18px; }
         button:hover { background: #45a049; }
-        #results { margin-top: 20px; padding: 10px; border: 1px solid #555; display: none; background: #222; }
-        @media (max-width: 828px) { body { padding: 10px; } }
+        #results { margin-top: 30px; padding: 15px; border: 1px solid #555; display: none; background: #222; font-size: 18px; }
+        @media (max-width: 828px) { body { padding: 15px; font-size: 16px; } label { font-size: 18px; } input, select, button { font-size: 16px; } }
     </style>
 </head>
 <body>
-    <h2 style="color: #4CAF50;">Extrusion Calculator</h2>
+    <h2 style="color: #4CAF50; font-size: 24px;">Extrusion Calculator</h2>
     <form id="calcForm">
         <label for="ratio">Ratio:</label>
         <input type="number" id="ratio" name="ratio" step="0.1" min="0">
